@@ -21,9 +21,7 @@ print(files)
 for image in files:
 	name = image[:-4]
 	img = cv2.imread(path+image,1)
-	if img.ndim==2:
-		print("I don't understand grayscale images. Goodbye")
-	elif img.ndim==3:
+	if img.ndim==3:
 		h,w,_ = img.shape
 		thresholds = [
 		["Red",(255,0,0),0],
