@@ -1,9 +1,9 @@
 # Base
-"base" is directory for basic version of excersice. 
-User have to create new directory called 'images' and upload there his images.
+* "base" is directory for basic version of excersice. 
+* User have to create new directory called 'images' and upload there his images.
 
 How script works?
--for every image in <dir> he read it into cv2.image
+-for every image in directory it reads it into ndarray
 -for every pixel of every image, classifier choose closest color (from 'thresholds' list)
 -script returns 3 most popular colors with %
 
