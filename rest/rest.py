@@ -18,9 +18,7 @@ def incrementColor(pixel,collection):
 	collection[closestColor][2]+=1
 
 def decodeColors(img):
-    if img.ndim == 2:
-        print("I don't understand grayscale images. Goodbye")
-    elif img.ndim == 3:
+    if img.ndim == 3:
         h, w, _ = img.shape
         # rgb
         # init thresholds
