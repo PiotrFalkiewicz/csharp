@@ -1,6 +1,11 @@
 # Base
 * "base" is directory for basic version of excersice. 
 * User have to create new directory called 'images' and upload there his images.
+* final structure of project:
+* dir/:
+* --> base.py
+* --> images/:
+* -----> {collection of images}
 
 How script works?
 * for every image in directory it reads it into ndarray
