@@ -24,12 +24,12 @@ for image in files:
 	if img.ndim==3:
 		h,w,_ = img.shape
 		thresholds = [
-		["Red",(255,0,0),0],
+		["Red",(0,0,255),0],
 		["Green",(0,255,0),0],
-		["Blue",(0,0,255),0],
+		["Blue",(255,0,),0],
 		["Black",(0,0,0),0],
-		["Yellow",(255,255,0),0],
-		["Cyan",(0,255,255),0],
+		["Yellow",(0,255,255),0],
+		["Cyan",(255,255,0),0],
 		["White",(255,255,255),0],
 		["Magenta",(255,0,255),0]]
 		for i in range(h):
