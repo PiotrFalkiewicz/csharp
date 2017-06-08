@@ -12,7 +12,7 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            string path = "C://Users//Kasia//Documents//visual studio 2015//Projects//ConsoleApplication2//ConsoleApplication2//folder";
+            string path = "folder";
             string[] files = Directory.GetFiles(@path);
             Parallel.ForEach(files, file =>
             {
